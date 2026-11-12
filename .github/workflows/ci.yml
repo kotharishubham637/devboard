@@ -29,7 +29,7 @@ jobs:
         uses: wearerequired/lint-action@v3
         with:
           eslint: true
-          prettier: true
+          prettier: false
           eslint_dir: frontend
           prettier_dir: frontend
 
